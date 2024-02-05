@@ -304,7 +304,7 @@ html {
 }
 
 body {
-  background: #242424; /* hardcoded for now */
+  background: var(--color6); /* change? */
 }
 
 body.is-preload *,
@@ -1897,7 +1897,8 @@ body.is-preload #header {
 }
 
 #main .thumb:after {
-  /* This is dumb, why lay a gradient on photos for a photography centered portfolio - make more subtle, for now */
+  /* This is weird, imho, why lay a gradient on photos for a photography centered portfolio...
+  images should remain untouched - make more subtle, for now */
   background-image: -moz-linear-gradient(
     to top,
     rgba(10, 17, 25, 0.2) 5%,
@@ -1988,10 +1989,10 @@ body.ie #main:after {
 }
 
 body.content-active #main {
-  -moz-filter: blur(6px);
-  -webkit-filter: blur(6px);
-  -ms-filter: blur(6px);
-  filter: blur(6px);
+  -moz-filter: blur(3px);
+  -webkit-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
 }
 
 body.content-active #main:after {
