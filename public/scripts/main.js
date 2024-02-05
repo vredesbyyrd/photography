@@ -212,11 +212,11 @@
     onPopupOpen: function () {
       $body.addClass("modal-active");
     },
-    overlayOpacity: 0,
+    overlayOpacity: 0.6, // 0
     popupCloserText: "",
     popupHeight: 150,
     popupLoaderText: "",
-    popupSpeed: 300,
+    popupSpeed: 225, // 300
     popupWidth: 150,
     selector: ".thumb > a.image",
     usePopupCaption: true,

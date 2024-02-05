@@ -4,8 +4,8 @@
   "private": true,
   "license": "CCA-3.0",
   "author": {
-    "name": "AREA44",
-    "url": "https://github.com/AREA44/astro-multiverse"
+    "name": "vredesbyyrd",
+    "url": "https://github.com/vredesbyyrd/photography"
   },
   "scripts": {
     "build": "astro build",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "astro": "^4.3.2",
+    "astro-relative-links": "^0.3.7",
     "glob": "^10.3.10"
   },
   "devDependencies": {
