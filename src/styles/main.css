@@ -2312,11 +2312,10 @@ body.is-preload #main .thumb {
     -webkit-transition-delay: 1.175s;
     -ms-transition-delay: 1.175s;
     transition-delay: 1.175s;
-    /*height: calc(40vh - 2em);
-    min-height: 18em;*/
+    height: calc(40vh - 2em);
+    min-height: 18em;
     height: 100%;
     width: 100%;
-    flex-direction: column;
   }
 
   #main .thumb:nth-child(1) {
