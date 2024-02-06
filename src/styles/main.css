@@ -2314,7 +2314,6 @@ body.is-preload #main .thumb {
     transition-delay: 1.175s;
     height: calc(40vh - 2em);
     min-height: 18em;
-    height: 100%;
     width: 100%;
   }
 
