@@ -1341,6 +1341,7 @@ table.alt tfoot {
     padding: 4em 2em 2em 2em;
     bottom: auto;
     top: calc(4em - 1px);
+    min-height: 100%;
   }
 
   .panel.active {
