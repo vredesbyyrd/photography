@@ -1338,10 +1338,10 @@ table.alt tfoot {
     -webkit-transform: translateY(-100vh);
     -ms-transform: translateY(-100vh);
     transform: translateY(-100vh);
-    padding: 4em 2em 2em 2em;
+    /* padding: 4em 2em 2em 2em; */
     bottom: auto;
     top: calc(4em - 1px);
-    min-height: 100%;
+    min-height: 100vh;
   }
 
   .panel.active {
@@ -1589,7 +1589,7 @@ body.touch .poptrox-popup .nav-next {
     display: none !important;
   }
 
-  .poptrox-popup .nav-previous,
+  .poptrox-popup .nav-previous, /* TODO: should swipe work? */
   .poptrox-popup .nav-next {
     background-size: 2.5em;
   }
