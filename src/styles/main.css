@@ -1588,6 +1588,11 @@ body.touch .poptrox-popup .nav-next {
   .poptrox-popup .nav-next */ {
     display: none !important;
   }
+
+  .poptrox-popup .nav-previous,
+  .poptrox-popup .nav-next {
+    background-size: 2.5em;
+  }
 }
 
 /* Wrapper */
